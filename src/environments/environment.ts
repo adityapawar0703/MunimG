@@ -3,6 +3,8 @@ export const environment = {
   apiUrl:
     window.location.hostname === 'localhost'
       ? 'http://localhost:5000/api'
-      : 'https://expense-tracker-api-app.vercel.app/api',
-  trackingApiUrl: 'https://visitor-tracking-api.vercel.app/api/visit',
+      : 'https://munimg-backend.onrender.com/api',
+  // trackingApiUrl: 'https://visitor-tracking-api.vercel.app/api/visit',
+  trackingApiUrl: 'https://munimg-backend.onrender.com/api/visit',
+
 };
